@@ -13,3 +13,20 @@ The user, after pressing the right mouse button, has the following options:
 - generating a new tree ascendingly,
 - generating a new tree decreasingly,
 - terminating the program.
+
+  ## Images
+![](GitHub_images/01_BST_start.png)
+
+![](GitHub_images/02_BST_random_tree_1.png)
+
+![](GitHub_images/02_BST_random_tree_2.png)
+
+![](GitHub_images/03_BST_statistics.png)
+
+![](GitHub_images/04_BST_ascending_tree.png)
+
+![](GitHub_images/05_BST_decreasing_tree.png)
+
+![](GitHub_images/06_BST_searching_node_1.png)
+
+![](GitHub_images/06_BST_searching_node_2.png)
