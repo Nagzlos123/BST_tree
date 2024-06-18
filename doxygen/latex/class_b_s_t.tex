@@ -1,0 +1,167 @@
+\hypertarget{class_b_s_t}{}\section{Dokumentacja klasy B\+ST}
+\label{class_b_s_t}\index{B\+ST@{B\+ST}}
+
+
+Definicja klasy \mbox{\hyperlink{class_b_s_t}{B\+ST}}.  
+
+
+
+
+{\ttfamily \#include $<$bst.\+h$>$}
+
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_b_s_t_abc17123a0367c3b8ad0382eeb3ad3178}{B\+ST}} ()
+\item 
+void \mbox{\hyperlink{class_b_s_t_ae5f20b665705c82452690ba682f867a6}{generuj\+\_\+nowe}} (int ile, int zakres, int uporzadkowanie)
+\item 
+void \mbox{\hyperlink{class_b_s_t_a14df9d739a34fd8c391c07df9e5ca1d3}{dodaj}} (int wartosc)
+\item 
+\mbox{\hyperlink{classwezel}{wezel}} $\ast$ \mbox{\hyperlink{class_b_s_t_a1b0748887eae594e90cfe2494baa29ea}{wyszukaj}} (int klucz)
+\item 
+void \mbox{\hyperlink{class_b_s_t_acd478acd615c38053ca2e28e217c43fe}{wyczysc\+\_\+wyszukiwanie}} (\mbox{\hyperlink{classwezel}{wezel}} $\ast$W)
+\item 
+\mbox{\hyperlink{classwezel}{wezel}} $\ast$ \mbox{\hyperlink{class_b_s_t_a67b2888aec856d1e00e569a1feabf905}{usun}} (\mbox{\hyperlink{classwezel}{wezel}} $\ast$x)
+\item 
+void \mbox{\hyperlink{class_b_s_t_a538330cbdb455f7e676db5ee9ef29f54}{wyswietl}} (int x, int y, int rozpietosc, \mbox{\hyperlink{classwezel}{wezel}} $\ast$W, int kolor, \mbox{\hyperlink{classtekstury}{tekstury}} $\ast$\mbox{\hyperlink{main_8cpp_ab6e212a94c16ea306129c2e8e004bd6f}{T}})
+\item 
+void \mbox{\hyperlink{class_b_s_t_a7605bbad3398366c380300c97eed9ace}{wyswietl\+\_\+drzewo}} (\mbox{\hyperlink{classtekstury}{tekstury}} $\ast$\mbox{\hyperlink{main_8cpp_ab6e212a94c16ea306129c2e8e004bd6f}{T}})
+\end{DoxyCompactItemize}
+\subsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classwezel}{wezel}} $\ast$ \mbox{\hyperlink{class_b_s_t_a8b2f27f4b58aceda99b397e3f5447e6a}{korzen}}
+\item 
+int \mbox{\hyperlink{class_b_s_t_a7c4c3ea4245b2eb6e0c87720743c03b4}{liczba\+\_\+porownan}}
+\item 
+int \mbox{\hyperlink{class_b_s_t_abd1f7811c4077eecacb5a4ab2013ef53}{liczba\+\_\+przebiegow\+\_\+petli}}
+\item 
+int \mbox{\hyperlink{class_b_s_t_a8d4e71cbb02976259d9893169ea2b6ac}{liczba\+\_\+przypisan}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Definicja klasy \mbox{\hyperlink{class_b_s_t}{B\+ST}}. 
+
+Klasa \mbox{\hyperlink{class_b_s_t}{B\+ST}} przechowuje wskaźnik do drzewa \mbox{\hyperlink{class_b_s_t}{B\+ST}} oraz zawiera metody zarządzające drzewem. 
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_b_s_t_abc17123a0367c3b8ad0382eeb3ad3178}\label{class_b_s_t_abc17123a0367c3b8ad0382eeb3ad3178}} 
+\index{B\+ST@{B\+ST}!B\+ST@{B\+ST}}
+\index{B\+ST@{B\+ST}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{B\+S\+T()}{BST()}}
+{\footnotesize\ttfamily B\+S\+T\+::\+B\+ST (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+konstruktor klasy \mbox{\hyperlink{class_b_s_t}{B\+ST}} 
+
+\subsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_b_s_t_a14df9d739a34fd8c391c07df9e5ca1d3}\label{class_b_s_t_a14df9d739a34fd8c391c07df9e5ca1d3}} 
+\index{B\+ST@{B\+ST}!dodaj@{dodaj}}
+\index{dodaj@{dodaj}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{dodaj()}{dodaj()}}
+{\footnotesize\ttfamily void B\+S\+T\+::dodaj (\begin{DoxyParamCaption}\item[{int}]{wartosc }\end{DoxyParamCaption})}
+
+metoda dodająca nowy węzeł do drzewa 
+\begin{DoxyParams}{Parametry}
+{\em wartosc} & określa wartość, która będzie wstawiona do węzła \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_b_s_t_ae5f20b665705c82452690ba682f867a6}\label{class_b_s_t_ae5f20b665705c82452690ba682f867a6}} 
+\index{B\+ST@{B\+ST}!generuj\+\_\+nowe@{generuj\+\_\+nowe}}
+\index{generuj\+\_\+nowe@{generuj\+\_\+nowe}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{generuj\+\_\+nowe()}{generuj\_nowe()}}
+{\footnotesize\ttfamily void B\+S\+T\+::generuj\+\_\+nowe (\begin{DoxyParamCaption}\item[{int}]{ile,  }\item[{int}]{zakres,  }\item[{int}]{uporzadkowanie }\end{DoxyParamCaption})}
+
+metoda generująca nowe drzewo 
+\begin{DoxyParams}{Parametry}
+{\em ile} & liczba węzłów \\
+\hline
+{\em zakres} & zakres generowanych wartości węzła \\
+\hline
+{\em uporzadkowanie} & rodzaj uporządkowania \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_b_s_t_a67b2888aec856d1e00e569a1feabf905}\label{class_b_s_t_a67b2888aec856d1e00e569a1feabf905}} 
+\index{B\+ST@{B\+ST}!usun@{usun}}
+\index{usun@{usun}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{usun()}{usun()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classwezel}{wezel}} $\ast$ B\+S\+T\+::usun (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classwezel}{wezel}} $\ast$}]{x }\end{DoxyParamCaption})}
+
+metoda usuwająca węzeł \mbox{\Hypertarget{class_b_s_t_acd478acd615c38053ca2e28e217c43fe}\label{class_b_s_t_acd478acd615c38053ca2e28e217c43fe}} 
+\index{B\+ST@{B\+ST}!wyczysc\+\_\+wyszukiwanie@{wyczysc\+\_\+wyszukiwanie}}
+\index{wyczysc\+\_\+wyszukiwanie@{wyczysc\+\_\+wyszukiwanie}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{wyczysc\+\_\+wyszukiwanie()}{wyczysc\_wyszukiwanie()}}
+{\footnotesize\ttfamily void B\+S\+T\+::wyczysc\+\_\+wyszukiwanie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classwezel}{wezel}} $\ast$}]{W }\end{DoxyParamCaption})}
+
+metoda czyszcząca węzły kolorowane w trakcie wyszukiwania \mbox{\Hypertarget{class_b_s_t_a538330cbdb455f7e676db5ee9ef29f54}\label{class_b_s_t_a538330cbdb455f7e676db5ee9ef29f54}} 
+\index{B\+ST@{B\+ST}!wyswietl@{wyswietl}}
+\index{wyswietl@{wyswietl}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{wyswietl()}{wyswietl()}}
+{\footnotesize\ttfamily void B\+S\+T\+::wyswietl (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{rozpietosc,  }\item[{\mbox{\hyperlink{classwezel}{wezel}} $\ast$}]{W,  }\item[{int}]{kolor,  }\item[{\mbox{\hyperlink{classtekstury}{tekstury}} $\ast$}]{T }\end{DoxyParamCaption})}
+
+metoda wyświetlająca węzeł drzewa 
+\begin{DoxyParams}{Parametry}
+{\em x} & pozycja x na ekranie \\
+\hline
+{\em y} & pozycja y na ekranie \\
+\hline
+{\em rozpietosc} & odległość między węzłami potomnymi \\
+\hline
+{\em W} & wskaźnik na węzeł \\
+\hline
+{\em kolor} & kolor węzła (niebieski -\/ korzeń, czerwony -\/ prawy potomek, zielony -\/ lewy potomek) \\
+\hline
+{\em T} & wskaźnik na obiekt przechowujący tekstury \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_b_s_t_a7605bbad3398366c380300c97eed9ace}\label{class_b_s_t_a7605bbad3398366c380300c97eed9ace}} 
+\index{B\+ST@{B\+ST}!wyswietl\+\_\+drzewo@{wyswietl\+\_\+drzewo}}
+\index{wyswietl\+\_\+drzewo@{wyswietl\+\_\+drzewo}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{wyswietl\+\_\+drzewo()}{wyswietl\_drzewo()}}
+{\footnotesize\ttfamily void B\+S\+T\+::wyswietl\+\_\+drzewo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtekstury}{tekstury}} $\ast$}]{T }\end{DoxyParamCaption})}
+
+metoda wyświetlająca całe drzewo \mbox{\hyperlink{class_b_s_t}{B\+ST}} 
+\begin{DoxyParams}{Parametry}
+{\em T} & wskaźnik na obiekt przechowujący tekstury \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_b_s_t_a1b0748887eae594e90cfe2494baa29ea}\label{class_b_s_t_a1b0748887eae594e90cfe2494baa29ea}} 
+\index{B\+ST@{B\+ST}!wyszukaj@{wyszukaj}}
+\index{wyszukaj@{wyszukaj}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{wyszukaj()}{wyszukaj()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classwezel}{wezel}} $\ast$ B\+S\+T\+::wyszukaj (\begin{DoxyParamCaption}\item[{int}]{klucz }\end{DoxyParamCaption})}
+
+metoda wyszukująca węzła o podanej wartości klucza 
+
+\subsection{Dokumentacja atrybutów składowych}
+\mbox{\Hypertarget{class_b_s_t_a8b2f27f4b58aceda99b397e3f5447e6a}\label{class_b_s_t_a8b2f27f4b58aceda99b397e3f5447e6a}} 
+\index{B\+ST@{B\+ST}!korzen@{korzen}}
+\index{korzen@{korzen}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{korzen}{korzen}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classwezel}{wezel}}$\ast$ B\+S\+T\+::korzen}
+
+wskaźnik na korzeń drzewa \mbox{\Hypertarget{class_b_s_t_a7c4c3ea4245b2eb6e0c87720743c03b4}\label{class_b_s_t_a7c4c3ea4245b2eb6e0c87720743c03b4}} 
+\index{B\+ST@{B\+ST}!liczba\+\_\+porownan@{liczba\+\_\+porownan}}
+\index{liczba\+\_\+porownan@{liczba\+\_\+porownan}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{liczba\+\_\+porownan}{liczba\_porownan}}
+{\footnotesize\ttfamily int B\+S\+T\+::liczba\+\_\+porownan}
+
+liczba porównań (statystyczna) \mbox{\Hypertarget{class_b_s_t_abd1f7811c4077eecacb5a4ab2013ef53}\label{class_b_s_t_abd1f7811c4077eecacb5a4ab2013ef53}} 
+\index{B\+ST@{B\+ST}!liczba\+\_\+przebiegow\+\_\+petli@{liczba\+\_\+przebiegow\+\_\+petli}}
+\index{liczba\+\_\+przebiegow\+\_\+petli@{liczba\+\_\+przebiegow\+\_\+petli}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{liczba\+\_\+przebiegow\+\_\+petli}{liczba\_przebiegow\_petli}}
+{\footnotesize\ttfamily int B\+S\+T\+::liczba\+\_\+przebiegow\+\_\+petli}
+
+liczba przebiegów pętli (statystyczna) \mbox{\Hypertarget{class_b_s_t_a8d4e71cbb02976259d9893169ea2b6ac}\label{class_b_s_t_a8d4e71cbb02976259d9893169ea2b6ac}} 
+\index{B\+ST@{B\+ST}!liczba\+\_\+przypisan@{liczba\+\_\+przypisan}}
+\index{liczba\+\_\+przypisan@{liczba\+\_\+przypisan}!B\+ST@{B\+ST}}
+\subsubsection{\texorpdfstring{liczba\+\_\+przypisan}{liczba\_przypisan}}
+{\footnotesize\ttfamily int B\+S\+T\+::liczba\+\_\+przypisan}
+
+liczba przypisań (statystyczna) 
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/cpp/drzewo\+\_\+bst/\mbox{\hyperlink{bst_8h}{bst.\+h}}\item 
+C\+:/cpp/drzewo\+\_\+bst/\mbox{\hyperlink{bst_8cpp}{bst.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,170 @@
+# depslib dependency file v1.0
+1529232043 source:c:\cpp\drzewo_bst\bst.cpp
+	"bst.h"
+	"funkcje.h"
+
+1529232043 "
+
+1529232043 c:\cpp\drzewo_bst\bst.h
+	<iostream>
+	"tekstury.h"
+
+1525393092 h"
+
+1525392989 source:c:\cpp\drzewo_bst\funkcje.cpp
+	"funkcje.h"
+	<string.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glut.h>
+
+902922872 >
+
+1525393051 c:\cpp\drzewo_bst\funkcje.h
+
+902922872 c:\users\zse\documents\gf\glut37\glut-3.7\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1529230821 source:c:\cpp\drzewo_bst\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	<gl/glut.h>
+	<math.h>
+	<time.h>
+	"bst.h"
+	"funkcje.h"
+	"tekstury.h"
+	"resource.h"
+
+1525393092 source:c:\cpp\drzewo_bst\tekstury.cpp
+	"tekstury.h"
+
+1529223914 c:\cpp\drzewo_bst\tekstury.h
+	<windows.h>
+	<gl/gl.h>
+	"include/png.h"
+
+1529223914 ng.h"
+
+1244151612 c:\cpp\drzewo_bst\include\png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1529186481 
+
+1121657208 c:\cpp\drzewo_bst\include\zlib.h
+	"zconf.h"
+
+1244151612 
+
+1121877626 c:\cpp\drzewo_bst\include\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1244151612 c:\cpp\drzewo_bst\include\pngconf.h
+	"pngusr.h"
+	"config.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1529193498 c:\cpp\drzewo_bst\resource.h
+
+1529186481 source:c:\cpp\drzewo_bst\resources.rc
+	"resource.h"
+	"afxres.h"
+
+1529228443 source:/media/goodbit/KINGSTON/drzewo_bst/bst.cpp
+	"bst.h"
+	"funkcje.h"
+
+1529228443 /media/goodbit/KINGSTON/drzewo_bst/bst.h
+	<iostream>
+	"tekstury.h"
+
+1529220314 /media/goodbit/KINGSTON/drzewo_bst/tekstury.h
+	<windows.h>
+	<gl/gl.h>
+	"include/png.h"
+
+1244148012 /media/goodbit/KINGSTON/drzewo_bst/include/png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1121653608 /media/goodbit/KINGSTON/drzewo_bst/include/zlib.h
+	"zconf.h"
+
+1121874026 /media/goodbit/KINGSTON/drzewo_bst/include/zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1244148012 /media/goodbit/KINGSTON/drzewo_bst/include/pngconf.h
+	"pngusr.h"
+	"config.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1525389451 /media/goodbit/KINGSTON/drzewo_bst/funkcje.h
+
+1525389389 source:/media/goodbit/KINGSTON/drzewo_bst/funkcje.cpp
+	"funkcje.h"
+	<string.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glut.h>
+
+1529229188 source:/media/goodbit/KINGSTON/drzewo_bst/main.cpp
+	<windows.h>
+	<gl/gl.h>
+	<gl/glut.h>
+	<math.h>
+	<time.h>
+	"bst.h"
+	"funkcje.h"
+	"tekstury.h"
+	"resource.h"
+
+1529189898 /media/goodbit/KINGSTON/drzewo_bst/resource.h
+
+1529182881 source:/media/goodbit/KINGSTON/drzewo_bst/resources.rc
+	"resource.h"
+	"afxres.h"
+
+1525389492 source:/media/goodbit/KINGSTON/drzewo_bst/tekstury.cpp
+	"tekstury.h"
+

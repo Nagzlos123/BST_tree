@@ -1,0 +1,103 @@
+\hypertarget{classwezel}{}\section{Dokumentacja klasy wezel}
+\label{classwezel}\index{wezel@{wezel}}
+
+
+Definicja klasy wezel.  
+
+
+
+
+{\ttfamily \#include $<$bst.\+h$>$}
+
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classwezel}{wezel}} $\ast$ \mbox{\hyperlink{classwezel_a80ba6462ff084575ec6ceff70328b309}{maximum}} ()
+\begin{DoxyCompactList}\small\item\em metoda znajdująca maksymalną wartość klucza wśród potomków węzła \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classwezel}{wezel}} $\ast$ \mbox{\hyperlink{classwezel_a9f30c6f8458f88551aa2ac1594b71055}{poprzednik}} ()
+\begin{DoxyCompactList}\small\item\em metoda znajdująca poprzednika węzła \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classwezel_a974b7f21addfce76b123aa07ee0287c1}{klucz}}
+\item 
+bool \mbox{\hyperlink{classwezel_a24d936575a56379d5cebe8f45ef049f1}{stan\+\_\+wyszukania}}
+\item 
+\mbox{\hyperlink{classwezel}{wezel}} $\ast$ \mbox{\hyperlink{classwezel_a5ac913d2c2d91515dde416dfa9254a12}{lewy}}
+\item 
+\mbox{\hyperlink{classwezel}{wezel}} $\ast$ \mbox{\hyperlink{classwezel_ae890c73ae84fb0097a715d739fad9ea0}{prawy}}
+\item 
+\mbox{\hyperlink{classwezel}{wezel}} $\ast$ \mbox{\hyperlink{classwezel_a580c686473d5fa801cd15496f61da7f7}{rodzic}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Definicja klasy wezel. 
+
+Klasa wezel zawiera strukturê pojedynczego wêz³a drzewa \mbox{\hyperlink{class_b_s_t}{B\+ST}} 
+
+\subsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classwezel_a80ba6462ff084575ec6ceff70328b309}\label{classwezel_a80ba6462ff084575ec6ceff70328b309}} 
+\index{wezel@{wezel}!maximum@{maximum}}
+\index{maximum@{maximum}!wezel@{wezel}}
+\subsubsection{\texorpdfstring{maximum()}{maximum()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classwezel}{wezel}}$\ast$ wezel\+::maximum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+metoda znajdująca maksymalną wartość klucza wśród potomków węzła 
+
+\begin{DoxyReturn}{Zwraca}
+wskaźnik do węzła z maksymalną wartością klucza 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classwezel_a9f30c6f8458f88551aa2ac1594b71055}\label{classwezel_a9f30c6f8458f88551aa2ac1594b71055}} 
+\index{wezel@{wezel}!poprzednik@{poprzednik}}
+\index{poprzednik@{poprzednik}!wezel@{wezel}}
+\subsubsection{\texorpdfstring{poprzednik()}{poprzednik()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classwezel}{wezel}}$\ast$ wezel\+::poprzednik (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+metoda znajdująca poprzednika węzła 
+
+\begin{DoxyReturn}{Zwraca}
+wskaźnik na poprzednika węzła 
+\end{DoxyReturn}
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\mbox{\Hypertarget{classwezel_a974b7f21addfce76b123aa07ee0287c1}\label{classwezel_a974b7f21addfce76b123aa07ee0287c1}} 
+\index{wezel@{wezel}!klucz@{klucz}}
+\index{klucz@{klucz}!wezel@{wezel}}
+\subsubsection{\texorpdfstring{klucz}{klucz}}
+{\footnotesize\ttfamily int wezel\+::klucz}
+
+wartość jaką przechowuje węzeł \mbox{\Hypertarget{classwezel_a5ac913d2c2d91515dde416dfa9254a12}\label{classwezel_a5ac913d2c2d91515dde416dfa9254a12}} 
+\index{wezel@{wezel}!lewy@{lewy}}
+\index{lewy@{lewy}!wezel@{wezel}}
+\subsubsection{\texorpdfstring{lewy}{lewy}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classwezel}{wezel}}$\ast$ wezel\+::lewy}
+
+wskaźnik na lewego potomka \mbox{\Hypertarget{classwezel_ae890c73ae84fb0097a715d739fad9ea0}\label{classwezel_ae890c73ae84fb0097a715d739fad9ea0}} 
+\index{wezel@{wezel}!prawy@{prawy}}
+\index{prawy@{prawy}!wezel@{wezel}}
+\subsubsection{\texorpdfstring{prawy}{prawy}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classwezel}{wezel}}$\ast$ wezel\+::prawy}
+
+wskaźnik na prawego potomka \mbox{\Hypertarget{classwezel_a580c686473d5fa801cd15496f61da7f7}\label{classwezel_a580c686473d5fa801cd15496f61da7f7}} 
+\index{wezel@{wezel}!rodzic@{rodzic}}
+\index{rodzic@{rodzic}!wezel@{wezel}}
+\subsubsection{\texorpdfstring{rodzic}{rodzic}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classwezel}{wezel}}$\ast$ wezel\+::rodzic}
+
+wskaźnik na rodzica \mbox{\Hypertarget{classwezel_a24d936575a56379d5cebe8f45ef049f1}\label{classwezel_a24d936575a56379d5cebe8f45ef049f1}} 
+\index{wezel@{wezel}!stan\+\_\+wyszukania@{stan\+\_\+wyszukania}}
+\index{stan\+\_\+wyszukania@{stan\+\_\+wyszukania}!wezel@{wezel}}
+\subsubsection{\texorpdfstring{stan\+\_\+wyszukania}{stan\_wyszukania}}
+{\footnotesize\ttfamily bool wezel\+::stan\+\_\+wyszukania}
+
+okresla czy wezel jest na drodze wyszukiwania 
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/cpp/drzewo\+\_\+bst/\mbox{\hyperlink{bst_8h}{bst.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Drzewo BST: Plik źródłowy C:/cpp/drzewo_bst/tekstury.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Drzewo BST
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('tekstury_8h_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">C:/cpp/drzewo_bst/tekstury.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tekstury_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef TEKSTURY_H_INCLUDED</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define TEKSTURY_H_INCLUDED</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;windows.h&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;gl/gl.h&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;include/png.h&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classtekstura.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="classtekstura.html">tekstura</a></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classtekstura.html#a39a96db98ae4b45adbf37589a9f43a82">   22</a></span>&#160;    GLuint <a class="code" href="classtekstura.html#a39a96db98ae4b45adbf37589a9f43a82">ID</a> ; </div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classtekstura.html#ad29153487f36c0001b0a0343186504e2">   23</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classtekstura.html#ad29153487f36c0001b0a0343186504e2">szerokosc</a>; </div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classtekstura.html#a9072bd067d6d05da6b0c83bb18db8172">   24</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classtekstura.html#a9072bd067d6d05da6b0c83bb18db8172">wysokosc</a>; </div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classtekstura.html#a4ea10d7111e7689efe1168d4735ee00e">   25</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classtekstura.html#a4ea10d7111e7689efe1168d4735ee00e">alfa</a>; </div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classtekstura.html#a959484f51bdc568215a4f05dbc3f0210">   26</a></span>&#160;    GLubyte *<a class="code" href="classtekstura.html#a959484f51bdc568215a4f05dbc3f0210">obraz</a>; </div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classtekstura.html#a0cfe352dfea60a073bd546748c1a06b1">laduj_teksture</a>(<span class="keywordtype">char</span> *name); </div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classtekstury.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="classtekstury.html">tekstury</a></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classtekstury.html#a8b909f3a15bdb2d1e5d70fbafe80c334">   40</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="classtekstura.html">tekstura</a> <a class="code" href="classtekstury.html#a8b909f3a15bdb2d1e5d70fbafe80c334">korzen</a>;</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classtekstury.html#a1180f008cfa3be39070886f4cc332403">   41</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="classtekstura.html">tekstura</a> <a class="code" href="classtekstury.html#a1180f008cfa3be39070886f4cc332403">lewy</a>;</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classtekstury.html#a46e17183769205f5de0b31d1c1240ada">   42</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="classtekstura.html">tekstura</a> <a class="code" href="classtekstury.html#a46e17183769205f5de0b31d1c1240ada">prawy</a>;</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classtekstury.html#a7a64df71fd68f590fd46a26216a23b30">   43</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="classtekstura.html">tekstura</a> <a class="code" href="classtekstury.html#a7a64df71fd68f590fd46a26216a23b30">wyszukiwanie</a>;</div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classtekstury.html#a0d8212d36fa10b9b0ab76cedcf792d78">   44</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="classtekstura.html">tekstura</a> <a class="code" href="classtekstury.html#a0d8212d36fa10b9b0ab76cedcf792d78">legenda</a>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif // TEKSTURY_H_INCLUDED</span></div><div class="ttc" id="classtekstury_html_a7a64df71fd68f590fd46a26216a23b30"><div class="ttname"><a href="classtekstury.html#a7a64df71fd68f590fd46a26216a23b30">tekstury::wyszukiwanie</a></div><div class="ttdeci">struct tekstura wyszukiwanie</div><div class="ttdef"><b>Definition:</b> tekstury.h:43</div></div>
+<div class="ttc" id="classtekstura_html_ad29153487f36c0001b0a0343186504e2"><div class="ttname"><a href="classtekstura.html#ad29153487f36c0001b0a0343186504e2">tekstura::szerokosc</a></div><div class="ttdeci">int szerokosc</div><div class="ttdef"><b>Definition:</b> tekstury.h:23</div></div>
+<div class="ttc" id="classtekstury_html"><div class="ttname"><a href="classtekstury.html">tekstury</a></div><div class="ttdoc">Definicja klasy tekstury. </div><div class="ttdef"><b>Definition:</b> tekstury.h:37</div></div>
+<div class="ttc" id="classtekstury_html_a0d8212d36fa10b9b0ab76cedcf792d78"><div class="ttname"><a href="classtekstury.html#a0d8212d36fa10b9b0ab76cedcf792d78">tekstury::legenda</a></div><div class="ttdeci">struct tekstura legenda</div><div class="ttdef"><b>Definition:</b> tekstury.h:44</div></div>
+<div class="ttc" id="classtekstura_html_a39a96db98ae4b45adbf37589a9f43a82"><div class="ttname"><a href="classtekstura.html#a39a96db98ae4b45adbf37589a9f43a82">tekstura::ID</a></div><div class="ttdeci">GLuint ID</div><div class="ttdef"><b>Definition:</b> tekstury.h:22</div></div>
+<div class="ttc" id="classtekstury_html_a46e17183769205f5de0b31d1c1240ada"><div class="ttname"><a href="classtekstury.html#a46e17183769205f5de0b31d1c1240ada">tekstury::prawy</a></div><div class="ttdeci">struct tekstura prawy</div><div class="ttdef"><b>Definition:</b> tekstury.h:42</div></div>
+<div class="ttc" id="classtekstura_html_a4ea10d7111e7689efe1168d4735ee00e"><div class="ttname"><a href="classtekstura.html#a4ea10d7111e7689efe1168d4735ee00e">tekstura::alfa</a></div><div class="ttdeci">int alfa</div><div class="ttdef"><b>Definition:</b> tekstury.h:25</div></div>
+<div class="ttc" id="classtekstura_html"><div class="ttname"><a href="classtekstura.html">tekstura</a></div><div class="ttdoc">Definicja klasy tekstura. </div><div class="ttdef"><b>Definition:</b> tekstury.h:19</div></div>
+<div class="ttc" id="classtekstura_html_a959484f51bdc568215a4f05dbc3f0210"><div class="ttname"><a href="classtekstura.html#a959484f51bdc568215a4f05dbc3f0210">tekstura::obraz</a></div><div class="ttdeci">GLubyte * obraz</div><div class="ttdef"><b>Definition:</b> tekstury.h:26</div></div>
+<div class="ttc" id="classtekstura_html_a0cfe352dfea60a073bd546748c1a06b1"><div class="ttname"><a href="classtekstura.html#a0cfe352dfea60a073bd546748c1a06b1">tekstura::laduj_teksture</a></div><div class="ttdeci">int laduj_teksture(char *name)</div><div class="ttdef"><b>Definition:</b> tekstury.cpp:8</div></div>
+<div class="ttc" id="classtekstury_html_a1180f008cfa3be39070886f4cc332403"><div class="ttname"><a href="classtekstury.html#a1180f008cfa3be39070886f4cc332403">tekstury::lewy</a></div><div class="ttdeci">struct tekstura lewy</div><div class="ttdef"><b>Definition:</b> tekstury.h:41</div></div>
+<div class="ttc" id="classtekstura_html_a9072bd067d6d05da6b0c83bb18db8172"><div class="ttname"><a href="classtekstura.html#a9072bd067d6d05da6b0c83bb18db8172">tekstura::wysokosc</a></div><div class="ttdeci">int wysokosc</div><div class="ttdef"><b>Definition:</b> tekstury.h:24</div></div>
+<div class="ttc" id="classtekstury_html_a8b909f3a15bdb2d1e5d70fbafe80c334"><div class="ttname"><a href="classtekstury.html#a8b909f3a15bdb2d1e5d70fbafe80c334">tekstury::korzen</a></div><div class="ttdeci">struct tekstura korzen</div><div class="ttdef"><b>Definition:</b> tekstury.h:40</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="tekstury_8h.html">tekstury.h</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

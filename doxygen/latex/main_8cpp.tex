@@ -1,0 +1,199 @@
+\hypertarget{main_8cpp}{}\section{Dokumentacja pliku C\+:/cpp/drzewo\+\_\+bst/main.cpp}
+\label{main_8cpp}\index{C\+:/cpp/drzewo\+\_\+bst/main.\+cpp@{C\+:/cpp/drzewo\+\_\+bst/main.\+cpp}}
+
+
+Plik zawierający funkcję główną programu.  
+
+
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$gl/gl.\+h$>$}\newline
+{\ttfamily \#include $<$gl/glut.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}bst.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}funkcje.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}tekstury.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}resource.\+h\char`\"{}}\newline
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a98b1050f09da390896f964fb7a892391}{Initialize}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja inicjalizująca. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a3557d2209ea6ad89961c27c2487cd32b}{Change\+Size}} (G\+Lsizei w, G\+Lsizei h)
+\begin{DoxyCompactList}\small\item\em Funkcja uruchamiająca się przy zmianie rozmiaru okna. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a2fe48e89660e455d6353c1f28bc3d161}{Render\+Scene}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja rysująca grafikę w oknie Open\+GL. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a703a6d4237695df7ed1c8bf6e8ae2248}{Timer\+Func}} (int value)
+\begin{DoxyCompactList}\small\item\em Funkcja wywoływana automatycznie co 20 milisekund. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a725f819460ddd8c51968e1d4564ec61c}{Key\+Press}} (unsigned char button, int x, int y)
+\begin{DoxyCompactList}\small\item\em Funkcja obsługująca zdarzenie naciśnięcia klawisza. \end{DoxyCompactList}\item 
+B\+O\+OL C\+A\+L\+L\+B\+A\+CK \mbox{\hyperlink{main_8cpp_a609091f797eb167230ae1bcc3079f118}{Podaj\+Wartosc}} (H\+W\+ND hwnd, U\+I\+NT msg, W\+P\+A\+R\+AM w\+Param, L\+P\+A\+R\+AM l\+Param)
+\begin{DoxyCompactList}\small\item\em Funkcja obsługująca okno dialogowe z podawaniem wartości węzła. \end{DoxyCompactList}\item 
+B\+O\+OL C\+A\+L\+L\+B\+A\+CK \mbox{\hyperlink{main_8cpp_aaeee151f4a28eeafe1f98b752c31b201}{Nowe\+Drzewo}} (H\+W\+ND hwnd, U\+I\+NT msg, W\+P\+A\+R\+AM w\+Param, L\+P\+A\+R\+AM l\+Param)
+\begin{DoxyCompactList}\small\item\em Funkcja obsługująca okno dialogowe wyświetlane przy generowaniu nowego drzewa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a83f14e84ac1811123f880067b33e6e0a}{statystyki}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyświetlająca liczbę przeprowadzonych operacji. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ab61c8beb9de8d83a9417f16be789b5e6}{Menu}} (int id)
+\begin{DoxyCompactList}\small\item\em Funkcja obsługująca menu kontekstowe. \end{DoxyCompactList}\item 
+int W\+I\+N\+A\+PI \mbox{\hyperlink{main_8cpp_a661c2abc03926acfaeb93b4ae7db4943}{Win\+Main}} (H\+I\+N\+S\+T\+A\+N\+CE h\+Instance, H\+I\+N\+S\+T\+A\+N\+CE h\+Prev\+Instance, L\+P\+S\+TR lp\+Cmd\+Line, int n\+Cmd\+Show)
+\begin{DoxyCompactList}\small\item\em Główna funkcja programu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Zmienne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtekstury}{tekstury}} \mbox{\hyperlink{main_8cpp_ab6e212a94c16ea306129c2e8e004bd6f}{T}}
+\item 
+\mbox{\hyperlink{class_b_s_t}{B\+ST}} \mbox{\hyperlink{main_8cpp_a7dea6b92be1498aa106f07a44f2987e8}{drzewo}}
+\item 
+H\+I\+N\+S\+T\+A\+N\+CE \mbox{\hyperlink{main_8cpp_a730923d417f6a9a33c79566d94d03de0}{h\+Instance\+Global}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Plik zawierający funkcję główną programu. 
+
+W tym pliku znajdują się funkcje obsługujące zdarzenia aplikacji oraz funkcja główna programu. Wykorzystano interfejs G\+L\+UT. 
+
+\subsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{main_8cpp_a3557d2209ea6ad89961c27c2487cd32b}\label{main_8cpp_a3557d2209ea6ad89961c27c2487cd32b}} 
+\index{main.\+cpp@{main.\+cpp}!Change\+Size@{Change\+Size}}
+\index{Change\+Size@{Change\+Size}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Change\+Size()}{ChangeSize()}}
+{\footnotesize\ttfamily void Change\+Size (\begin{DoxyParamCaption}\item[{G\+Lsizei}]{w,  }\item[{G\+Lsizei}]{h }\end{DoxyParamCaption})}
+
+
+
+Funkcja uruchamiająca się przy zmianie rozmiaru okna. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em w} & nowa szerokość okna \\
+\hline
+{\em h} & nowa wysokość okna \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a98b1050f09da390896f964fb7a892391}\label{main_8cpp_a98b1050f09da390896f964fb7a892391}} 
+\index{main.\+cpp@{main.\+cpp}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily void Initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja inicjalizująca. 
+
+Zawiera inicjalizację ustawień Open\+GL, generowanie drzewa \mbox{\hyperlink{class_b_s_t}{B\+ST}} oraz ładowanie tekstur z plików. \mbox{\Hypertarget{main_8cpp_a725f819460ddd8c51968e1d4564ec61c}\label{main_8cpp_a725f819460ddd8c51968e1d4564ec61c}} 
+\index{main.\+cpp@{main.\+cpp}!Key\+Press@{Key\+Press}}
+\index{Key\+Press@{Key\+Press}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Key\+Press()}{KeyPress()}}
+{\footnotesize\ttfamily void Key\+Press (\begin{DoxyParamCaption}\item[{unsigned char}]{button,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Funkcja obsługująca zdarzenie naciśnięcia klawisza. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em button} & kod klawisza \\
+\hline
+{\em x} & pozycja x kursora na ekranie \\
+\hline
+{\em y} & pozycja y kursora na ekranie \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_ab61c8beb9de8d83a9417f16be789b5e6}\label{main_8cpp_ab61c8beb9de8d83a9417f16be789b5e6}} 
+\index{main.\+cpp@{main.\+cpp}!Menu@{Menu}}
+\index{Menu@{Menu}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Menu()}{Menu()}}
+{\footnotesize\ttfamily void Menu (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Funkcja obsługująca menu kontekstowe. 
+
+\mbox{\Hypertarget{main_8cpp_aaeee151f4a28eeafe1f98b752c31b201}\label{main_8cpp_aaeee151f4a28eeafe1f98b752c31b201}} 
+\index{main.\+cpp@{main.\+cpp}!Nowe\+Drzewo@{Nowe\+Drzewo}}
+\index{Nowe\+Drzewo@{Nowe\+Drzewo}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Nowe\+Drzewo()}{NoweDrzewo()}}
+{\footnotesize\ttfamily B\+O\+OL C\+A\+L\+L\+B\+A\+CK Nowe\+Drzewo (\begin{DoxyParamCaption}\item[{H\+W\+ND}]{hwnd,  }\item[{U\+I\+NT}]{msg,  }\item[{W\+P\+A\+R\+AM}]{w\+Param,  }\item[{L\+P\+A\+R\+AM}]{l\+Param }\end{DoxyParamCaption})}
+
+
+
+Funkcja obsługująca okno dialogowe wyświetlane przy generowaniu nowego drzewa. 
+
+\mbox{\Hypertarget{main_8cpp_a609091f797eb167230ae1bcc3079f118}\label{main_8cpp_a609091f797eb167230ae1bcc3079f118}} 
+\index{main.\+cpp@{main.\+cpp}!Podaj\+Wartosc@{Podaj\+Wartosc}}
+\index{Podaj\+Wartosc@{Podaj\+Wartosc}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Podaj\+Wartosc()}{PodajWartosc()}}
+{\footnotesize\ttfamily B\+O\+OL C\+A\+L\+L\+B\+A\+CK Podaj\+Wartosc (\begin{DoxyParamCaption}\item[{H\+W\+ND}]{hwnd,  }\item[{U\+I\+NT}]{msg,  }\item[{W\+P\+A\+R\+AM}]{w\+Param,  }\item[{L\+P\+A\+R\+AM}]{l\+Param }\end{DoxyParamCaption})}
+
+
+
+Funkcja obsługująca okno dialogowe z podawaniem wartości węzła. 
+
+\mbox{\Hypertarget{main_8cpp_a2fe48e89660e455d6353c1f28bc3d161}\label{main_8cpp_a2fe48e89660e455d6353c1f28bc3d161}} 
+\index{main.\+cpp@{main.\+cpp}!Render\+Scene@{Render\+Scene}}
+\index{Render\+Scene@{Render\+Scene}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Render\+Scene()}{RenderScene()}}
+{\footnotesize\ttfamily void Render\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja rysująca grafikę w oknie Open\+GL. 
+
+\mbox{\Hypertarget{main_8cpp_a83f14e84ac1811123f880067b33e6e0a}\label{main_8cpp_a83f14e84ac1811123f880067b33e6e0a}} 
+\index{main.\+cpp@{main.\+cpp}!statystyki@{statystyki}}
+\index{statystyki@{statystyki}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{statystyki()}{statystyki()}}
+{\footnotesize\ttfamily void statystyki (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja wyświetlająca liczbę przeprowadzonych operacji. 
+
+\mbox{\Hypertarget{main_8cpp_a703a6d4237695df7ed1c8bf6e8ae2248}\label{main_8cpp_a703a6d4237695df7ed1c8bf6e8ae2248}} 
+\index{main.\+cpp@{main.\+cpp}!Timer\+Func@{Timer\+Func}}
+\index{Timer\+Func@{Timer\+Func}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Timer\+Func()}{TimerFunc()}}
+{\footnotesize\ttfamily void Timer\+Func (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Funkcja wywoływana automatycznie co 20 milisekund. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em value} & czas w milisekundach pomiędzy wywołaniami funkcji \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a661c2abc03926acfaeb93b4ae7db4943}\label{main_8cpp_a661c2abc03926acfaeb93b4ae7db4943}} 
+\index{main.\+cpp@{main.\+cpp}!Win\+Main@{Win\+Main}}
+\index{Win\+Main@{Win\+Main}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Win\+Main()}{WinMain()}}
+{\footnotesize\ttfamily int W\+I\+N\+A\+PI Win\+Main (\begin{DoxyParamCaption}\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Instance,  }\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Prev\+Instance,  }\item[{L\+P\+S\+TR}]{lp\+Cmd\+Line,  }\item[{int}]{n\+Cmd\+Show }\end{DoxyParamCaption})}
+
+
+
+Główna funkcja programu. 
+
+
+
+\subsection{Dokumentacja zmiennych}
+\mbox{\Hypertarget{main_8cpp_a7dea6b92be1498aa106f07a44f2987e8}\label{main_8cpp_a7dea6b92be1498aa106f07a44f2987e8}} 
+\index{main.\+cpp@{main.\+cpp}!drzewo@{drzewo}}
+\index{drzewo@{drzewo}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{drzewo}{drzewo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_b_s_t}{B\+ST}} drzewo}
+
+obiekt przechowujący dane drzewa \mbox{\hyperlink{class_b_s_t}{B\+ST}} \mbox{\Hypertarget{main_8cpp_a730923d417f6a9a33c79566d94d03de0}\label{main_8cpp_a730923d417f6a9a33c79566d94d03de0}} 
+\index{main.\+cpp@{main.\+cpp}!h\+Instance\+Global@{h\+Instance\+Global}}
+\index{h\+Instance\+Global@{h\+Instance\+Global}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{h\+Instance\+Global}{hInstanceGlobal}}
+{\footnotesize\ttfamily H\+I\+N\+S\+T\+A\+N\+CE h\+Instance\+Global}
+
+\mbox{\Hypertarget{main_8cpp_ab6e212a94c16ea306129c2e8e004bd6f}\label{main_8cpp_ab6e212a94c16ea306129c2e8e004bd6f}} 
+\index{main.\+cpp@{main.\+cpp}!T@{T}}
+\index{T@{T}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{T}{T}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtekstury}{tekstury}} T}
+
+obiekt przechowujący dane tekstur Open\+GL 
